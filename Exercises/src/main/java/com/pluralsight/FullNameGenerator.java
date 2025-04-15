@@ -1,6 +1,7 @@
 package com.pluralsight;
 
 import java.util.Scanner;
+
 public class FullNameGenerator {
     public static void main(String[] args) {
 
