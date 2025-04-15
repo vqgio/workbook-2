@@ -4,8 +4,6 @@ import java.util.Scanner;
 public class FullNameGenerator {
     public static void main(String[] args) {
 
-        //Scanner scanner = new Scanner(System.in);
-
         System.out.println("Please enter your name:");
 
         Scanner scanner = new Scanner(System.in);
@@ -20,17 +18,17 @@ public class FullNameGenerator {
 
         StringBuilder fullName = new StringBuilder();
 
-        fullName.append(firstName); // Append the first name
+        fullName.append(firstName);
 
-        if (!middleName.isEmpty()) { // Include middle name if provided
+        if (!middleName.isEmpty()) {
 
             fullName.append(" ").append(middleName);
 
         }
 
-        fullName.append(" ").append(lastName); // Append last name
+        fullName.append(" ").append(lastName);
 
-        if (!suffix.isEmpty()) { // Include suffix if provided, with a comma
+        if (!suffix.isEmpty()) {
 
             fullName.append(", ").append(suffix);
 
