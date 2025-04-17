@@ -1,7 +1,7 @@
 package com.pluralsight;
 
 public class CellPhone {
-    private String serialNumber;
+    private int serialNumber;
     private String model;
     private String carrier;
     private String phoneNumber;
@@ -9,18 +9,18 @@ public class CellPhone {
 
     public CellPhone() {
 
-        this.serialNumber = " 0 ";
+        this.serialNumber = 0;
         this.model = "";
         this.carrier = "";
         this.phoneNumber = "";
         this.owner = "";
     }
-    public String getSerialNumber() {
+    public int getSerialNumber() {
 
         return serialNumber;
 
     }
-    public void setSerialNumber(String serialNumber) {
+    public void setSerialNumber(int serialNumber) {
 
         this.serialNumber = serialNumber;
 

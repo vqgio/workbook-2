@@ -8,7 +8,8 @@ public class CellPhoneApplication {
         CellPhone cellPhone1 = new CellPhone();
 
         System.out.print("What is the serial number for phone 1? ");
-        cellPhone1.setSerialNumber(scanner.nextLine());
+        cellPhone1.setSerialNumber(scanner.nextInt());
+        scanner.nextLine();
 
         System.out.print("What model is phone 1? ");
         cellPhone1.setModel(scanner.nextLine());
@@ -26,7 +27,8 @@ public class CellPhoneApplication {
         CellPhone cellPhone2 = new CellPhone();
 
         System.out.print("What is the serial number for phone 2? ");
-        cellPhone2.setSerialNumber(scanner.nextLine());
+        cellPhone2.setSerialNumber(scanner.nextInt());
+        scanner.nextLine();
 
         System.out.print("What model is phone 2? ");
         cellPhone2.setModel(scanner.nextLine());
