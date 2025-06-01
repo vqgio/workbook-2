@@ -18,6 +18,7 @@ public class FullNameParser {
             System.out.println("Middle name:" + nameParts[1] + "\nLast Name:" + nameParts[2]);
         } else {
             System.out.println("INVALID NAME FORMAT...Please enter your full name.");
+
         }
     }
 }
